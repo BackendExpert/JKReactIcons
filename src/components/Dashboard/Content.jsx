@@ -7,7 +7,7 @@ import Footer from './Footer'
 
 const Content = () => {
   return (
-    <div className="w-full min-h-screen bg-blue-100/50 ">
+    <div className="w-full min-h-screen bg-white">
         <div className="md:flex">
         <div className="w-1/5 fixed top-0 left-0 h-full">
             <SideBar />
