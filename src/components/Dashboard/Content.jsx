@@ -8,15 +8,15 @@ const Content = () => {
   return (
     <div className="w-full min-h-screen bg-white">
         <div className="md:flex">
-        <div className="w-1/5 fixed top-0 left-0 h-full">
-            <SideBar />
-        </div>
-        <div className="md:w-full md:ml-[270px]"> 
-            <div className="py-4 px-2 md:mr-4  md:mx-0 ml-4 mr-4 ">
-                <Outlet />
-            </div>
-            <Footer />
-        </div>
+          <div className="w-1/5 fixed top-0 left-0 h-full">
+              <SideBar />
+          </div>
+          <div className="md:w-full md:ml-[270px]"> 
+              <div className="py-4 px-2 md:mr-4  md:mx-0 ml-4 mr-4 ">
+                  <Outlet />
+              </div>
+              <Footer />
+          </div>
         </div>
     </div>
   )
