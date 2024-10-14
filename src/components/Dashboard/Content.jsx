@@ -14,7 +14,7 @@ const Content = () => {
         </div>
         <div className="md:w-full md:ml-[270px]"> 
             <NavBar />
-            <div className="py-4 px-2 md:mr-4  md:mx-0 ml-4 mr-4">
+            <div className="py-4 px-2 md:mr-4  md:mx-0 ml-4 mr-4 min-h-screen">
                 <Outlet />
             </div>
             <Footer />
