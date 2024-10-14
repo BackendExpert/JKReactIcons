@@ -1,7 +1,6 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 import SideBar from './SideBar'
-import NavBar from './NavBar'
 import Footer from './Footer'
 
 
@@ -13,7 +12,6 @@ const Content = () => {
             <SideBar />
         </div>
         <div className="md:w-full md:ml-[270px]"> 
-            <NavBar />
             <div className="py-4 px-2 md:mr-4  md:mx-0 ml-4 mr-4 min-h-screen">
                 <Outlet />
             </div>

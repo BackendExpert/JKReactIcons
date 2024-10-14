@@ -8,7 +8,10 @@ const SideBar = () => {
     };
 
     const SideMenu = [
-        { id: 1, name: "Dashboard", link: '/Dashboard/Home', icon: '' },        
+        { id: 1, name: "About", link: '/Dashboard/Home', icon: '' },  
+        { id: 2, name: "Getting Start", link: '/Dashboard/Home', icon: '' },         
+        { id: 3, name: "Docs", link: '/Dashboard/Home', icon: '' }, 
+        { id: 4, name: "Relese", link: '/Dashboard/Home', icon: '' },   
     ];
     
   return (
@@ -20,6 +23,21 @@ const SideBar = () => {
             <div className="flex">
                 <img src="https://avatars.githubusercontent.com/u/168010528?s=200&v=4" alt="" className='w-12 h-auto'/>
                 <h1 className="mt-3 text-xl uppercase text-purple-500 text-semibold">JKReact-Icons</h1>
+            </div>
+            <hr className='border border-purple-600/50 mt-4'/>
+
+            <div className="my-4 px-6">
+                {
+                    SideMenu.map((menu, index) => {
+                        return (
+                            <a href="#" key={index}>
+                                <div className="my-4" >
+                                    <div className="">{menu.name}</div>
+                                </div>
+                            </a>
+                        )
+                    })
+                }
             </div>
         </div>
     </div>
