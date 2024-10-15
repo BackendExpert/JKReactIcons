@@ -4,6 +4,7 @@ import Content from "./components/Dashboard/Content";
 import GetStart from "./pages/GetStart";
 import Test from "./pages/Test";
 import DocsIndex from "./pages/Docs/DocsIndex";
+import DocsOne from "./pages/Docs/DocsOne";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
           <Route path="About" element={<HomePage />} />
           <Route path="GetStart" element={<GetStart /> } />
           <Route path="Docs" element={<DocsIndex /> } />
+          <Route path="DocsOne/:id" element={<DocsOne /> } />
         </Route>
       </Routes>
     </BrowserRouter>

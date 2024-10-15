@@ -1,5 +1,5 @@
 import React from 'react'
-import { OneNumberFill, TwoNumberOutline, LogoAlexa, LogoAmazon } from '@jehankandy/jkreact-icons'
+import { OneNumberFill } from '@jehankandy/jkreact-icons'
 
 const Test = () => {
   return (

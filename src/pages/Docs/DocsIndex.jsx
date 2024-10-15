@@ -1,5 +1,6 @@
 import React from 'react'
 import * as Icons from '@jehankandy/jkreact-icons';
+import { Link } from 'react-router-dom';
 
 const DocsIndex = () => {
   return (
@@ -13,14 +14,14 @@ const DocsIndex = () => {
 
         <p className='my-4'>This Icon Framework Developed using <a href="https://icons.getbootstrap.com/" target="_blank" className='text-purple-500 font-semibold'>Bootstrap Icons</a></p>
 
-        <div className="md:grid grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {Object.keys(Icons).map((iconName) => {
                 const IconComponent = Icons[iconName];
                 return (
-                    <a href={ `/DocsOne/${iconName}`}>
-                        <div key={iconName} className="flex flex-col items-center text-center my-4">
-                            <IconComponent size={44} />
-                            <span className="mt-2 text-sm">{iconName}</span>
+                    <a href={`/DocsOne/${iconName}`}>
+                        <div  className="flex flex-col items-center text-center my-4">
+                             <IconComponent size={44} />
+                             <span className="mt-2 text-sm">{iconName}</span>
                         </div>
                     </a>
                 );
