@@ -11,6 +11,13 @@ const GetStart = () => {
         </div>
 
         <hr />
+
+        <div className="mt-4">
+            <p className="text-xl font-semibold text-purple-500">Install Via NPM</p>
+            <p className="mt-2">According to installing this Framework on your Project you have to use NPM (Node Packge Manager).</p>
+            <p className="mt-2 text-purple-500">You have to Follow these step to install this Framework</p>
+            
+        </div>
     </div>
   )
 }
