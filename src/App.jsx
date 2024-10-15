@@ -5,6 +5,7 @@ import GetStart from "./pages/GetStart";
 import Test from "./pages/Test";
 import DocsIndex from "./pages/Docs/DocsIndex";
 import DocsOne from "./pages/Docs/DocsOne";
+import Release from "./pages/Release/Release";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
           <Route path="GetStart" element={<GetStart /> } />
           <Route path="Docs" element={<DocsIndex /> } />
           <Route path="DocsOne/:id" element={<DocsOne /> } />
+          <Route path="Release" element={<Release /> } />
         </Route>
       </Routes>
     </BrowserRouter>

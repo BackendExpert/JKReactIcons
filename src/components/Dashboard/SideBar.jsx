@@ -11,7 +11,7 @@ const SideBar = () => {
         { id: 1, name: "About", link: '/About', icon: '' },  
         { id: 2, name: "Getting Start", link: '/GetStart', icon: '' },         
         { id: 3, name: "Docs", link: '/Docs', icon: '' }, 
-        { id: 4, name: "Relese", link: '/Home', icon: '' },   
+        { id: 4, name: "Relese", link: '/Release', icon: '' },   
     ];
     
   return (

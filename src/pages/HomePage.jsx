@@ -29,6 +29,10 @@ const HomePage = () => {
 
         <div className="mt-20 text-center pb-40">
             <h1 className="text-xl ">This is the Icon Framework for ReactJS Development</h1>
+
+            <p className="my-16">
+              Sri Lankan First Icon Framework - JKReactIcons
+            </p>
         </div>
     </div>
   )
