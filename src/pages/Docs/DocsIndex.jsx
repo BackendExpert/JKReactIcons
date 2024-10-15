@@ -17,10 +17,12 @@ const DocsIndex = () => {
             {Object.keys(Icons).map((iconName) => {
                 const IconComponent = Icons[iconName];
                 return (
-                <div key={iconName} className="flex flex-col items-center text-center my-4">
-                    <IconComponent size={44} />
-                    <span className="mt-2 text-sm">{iconName}</span>
-                </div>
+                    <a href={ `/DocsOne/${iconName}`}>
+                        <div key={iconName} className="flex flex-col items-center text-center my-4">
+                            <IconComponent size={44} />
+                            <span className="mt-2 text-sm">{iconName}</span>
+                        </div>
+                    </a>
                 );
             })}
         </div>
